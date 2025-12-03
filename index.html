@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYXV3IL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="images/pfp.jpeg" />
+  </head>
+  <body>
+    <div id="loadingScreen">
+      <div class="loader-content">
+        <img src="images/pfp.jpeg" alt="Loading" class="loader-logo" />
+        <div class="loader-spinner"></div>
+        <h2 class="loader-text">NYXV3IL</h2>
+        <p class="loader-subtext">Loading...</p>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container" id="navContainer">
+        <div class="logo">
+          <img src="images/pfp.jpeg" alt="Profile Photo" />
+          <a href="#hero">NYXV3IL</a>
+        </div>
+        <div class="navLinks">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+        </div>
+        <a href="" class="menu" id="menuIcon"><i class="fa fa-bars"></i></a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero">
+        <img src="images/pfp.jpeg" alt="PFP" class="logo" />
+        <h1 class="name">NYXV3IL</h1>
+        <h3 class="tagline">Full-Stack Developer, Junior Penetration Tester</h3>
+      </section>
+
+      <section id="about">
+        <h1 class="sectionHead">About Me</h1>
+        <p class="desc">
+          My name is <span class="encrypted" data-length="15"></span>. I am a
+          <span class="encrypted" data-length="2"></span>-year-old with a strong
+          passion for technology. I work as a Full-Stack developer and a junior
+          Penetration Tester, and I am steadily growing in the field of Cyber
+          Security. My journey began at the age of 13 when I became curious
+          about how a childhood game worked and wanted to understand its systems
+          to earn more in the game. That curiosity led me to explore how the
+          Internet and computers function, and I have been learning and
+          improving ever since.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h1 class="sectionHead">Skills</h1>
+        <div class="skillsGrid">
+          <div class="skillCard">
+            <h1 class="category">Front-End</h1>
+            <div class="skillContainer">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">JQuery</span>
+            </div>
+          </div>
+          <div class="skillCard">
+            <h1 class="category">Back-End</h1>
+            <div class="skillContainer">
+              <span class="tag">Node.JS</span>
+              <span class="tag">Express.JS</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+          <div class="skillCard">
+            <h1 class="category">CyberSecurity</h1>
+            <div class="skillContainer">
+              <span class="tag">Networking</span>
+              <span class="tag">PenTesting</span>
+            </div>
+          </div>
+          <div class="skillCard">
+            <h1 class="category">Tools</h1>
+            <div class="skillContainer">
+              <span class="tag">Git</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Postman</span>
+            </div>
+          </div>
+          <div class="skillCard">
+            <h1 class="category">Other</h1>
+            <div class="skillContainer">
+              <span class="tag">Linux</span>
+              <span class="tag">Docker</span>
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1 class="sectionHead">My Projects</h1>
+        <div class="projectsGallery">
+          <div class="projectCard">
+            <div class="projectHeader">
+              <i class="fa fa-github"></i>
+              <h2 class="projectTitle">NYXV3IL</h2>
+            </div>
+            <p class="projectDesc">My Portfolio Website</p>
+            <div class="projectTags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://github.com/nyxv3il/nyxv3il"
+              target="_blank"
+              class="projectLink"
+            >
+              View on GitHub <i class="fa fa-external-link"></i>
+            </a>
+          </div>
+
+          <div class="projectCard">
+            <div class="projectHeader">
+              <i class="fa fa-graduation-cap"></i>
+              <h2 class="projectTitle">ACMS Website</h2>
+            </div>
+            <p class="projectDesc">
+              Official Website For Ananda College Mathematical Society.
+            </p>
+            <div class="projectTags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://github.com/nyxv3il/ACMS"
+              target="_blank"
+              class="projectLink"
+            >
+              View on GitHub <i class="fa fa-external-link"></i>
+            </a>
+          </div>
+
+          <div class="projectCard">
+            <div class="projectHeader">
+              <i class="fa fa-comment"></i>
+              <h2 class="projectTitle">PyChat</h2>
+            </div>
+            <p class="projectDesc">
+              End-To-End Encrypted Realtime Chatting Application.
+            </p>
+            <div class="projectTags">
+              <span class="tag">Security</span>
+              <span class="tag">Python</span>
+            </div>
+            <a
+              href="https://github.com/nyxv3il/PyChat"
+              target="_blank"
+              class="projectLink"
+            >
+              View on GitHub <i class="fa fa-external-link"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="images/pfp.jpeg" alt="NYXV3IL Logo" />
+          <h2>NYXV3IL</h2>
+        </div>
+        <div class="footer-nav">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+        </div>
+        <div class="footer-social">
+          <a
+            href="https://github.com/nyxv3il"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+          <a
+            href="https://tryhackme.com/p/nyxv3il"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fas fa-shield-alt"></i>
+            TryHackMe
+          </a>
+          <a href="#" target="_blank" class="social-link">
+            <i class="fab fa-discord"></i>
+            Discord: nyx.v3il
+          </a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2025 NYXV3IL. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/2ec9c6c2b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
